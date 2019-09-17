@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import galeria from './assets/galeria.jpg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
       </header>
+      <body background={galeria} style={{width: '100%', height: '1200px'}}>
+        <p style={{backgroundColor: 'white', fontSize: '500%',textAlign: 'center'}}>My Menu</p>
+      </body>
     </div>
   );
 }
